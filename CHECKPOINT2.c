@@ -41,7 +41,7 @@ void exercicio_fatoriais() {
     scanf("%d", &n); //para caso o numero seja menor que 1 ou maior que 20
 
     if (n < 1 || n > 20) {
-        printf("Numero inválido.\n");
+        printf("Numero invalido.\n");
         return; 
     }
 
@@ -74,9 +74,9 @@ void exercicio_palindromo() {
     }
 
     if (palindromo)
-        printf("A palavra é um palindromo.\n");
+        printf("Sim, a palavra e um palindromo.\n");
     else
-        printf("A palavra NÃO é um palindromo.\n");
+        printf("A palavra NAO e um palindromo.\n");
 }
 
 // Função 4: Verificar substring
