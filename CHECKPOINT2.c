@@ -1,3 +1,6 @@
+// Carolina Monteiro Bernardo 564651
+// Manoella Ginez 564469
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
