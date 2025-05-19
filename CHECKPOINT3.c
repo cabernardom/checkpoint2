@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// FunÁ„o 1: Fibonacci
+// Fun√ß√£o 1: Fibonacci
 void exercicio_fibonacci() {
     int n, i;
     int fib[50];
@@ -29,7 +29,7 @@ void exercicio_fibonacci() {
     printf("\n");
 }
 
-// FunÁ„o 2: Fatoriais
+// Fun√ß√£o 2: Fatoriais
 void exercicio_fatoriais() {
     int n, i;
     int fat[20];
@@ -38,7 +38,7 @@ void exercicio_fatoriais() {
     scanf("%d", &n);
 
     if (n < 1 || n > 20) {
-        printf("Numero inv·lido.\n");
+        printf("Numero inv√°lido.\n");
         return;
     }
 
@@ -53,7 +53,7 @@ void exercicio_fatoriais() {
     }
 }
 
-// FunÁ„o 3: PalÌndromo
+// Fun√ß√£o 3: Pal√≠ndromo
 void exercicio_palindromo() {
     char palavra[101];
     int i, tam, palindromo = 1;
@@ -71,12 +71,12 @@ void exercicio_palindromo() {
     }
 
     if (palindromo)
-        printf("A palavra È um palindromo.\n");
+        printf("A palavra √© um palindromo.\n");
     else
-        printf("A palavra N√O È um palindromo.\n");
+        printf("A palavra N√ÉO √© um palindromo.\n");
 }
 
-// FunÁ„o 4: Verificar substring
+// Fun√ß√£o 4: Verificar substring
 void exercicio_substring() {
     char str1[101], str2[101];
 
@@ -96,7 +96,7 @@ void exercicio_substring() {
 int main() {
     int opcao;
 
-    printf("===== MENU DE EXERCÕCIOS =====\n");
+    printf("===== MENU DE EXERC√çCIOS =====\n");
     printf("1 - Sequencia de Fibonacci\n");
     printf("2 - Fatoriais\n");
     printf("3 - Verificar Palindromo\n");
